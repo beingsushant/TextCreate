@@ -1,6 +1,26 @@
-#navbar  {
-    display: flex;
+.navbar  {
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     margin:auto;
+}
+
+.list {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin:auto;
+    margin-top: 4px;
+    text-decoration: none;
+    padding-right: 14px;
+}
+
+.form-check-input:checked {
+    background-color: #0d6efd;
+    background-color: darkblue;
+    border-color: #0d6efd;
+}
+.form-check-input:focus {
+    background-color: #0d6efd;
+    background-color: darkblue;
+    border-color: #0d6efd;
 }
